@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popping Gift</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 style="text-align:center">Hello Sweeto!! </h1> 
+<hr>   
+<div class="container">
+        <h1>Answer the Questions Sweeto to Unlock the Gift!</h1>
+        <div id="questions-section">
+            <form id="quiz-form">
+                <p>Question 1: Whom I love the most?(NAME OF THE PERSON WITH FULL SURNAME)</p>
+                <input type="text" id="q1" required>
+                
+                <p>Question 2: When did we first kissed on the lips?(Date in dd/mm/yyyy)</p>
+                <input type="text" id="q2" required>
+                
+                <p>Question 3: Whom I am afraid the most?(FULL NAME OF THE PERSON)</p>
+                <input type="text" id="q3" required>
+
+		<p>Question 4: Which anime character we both are fan of ?</p>
+		<input type="text" id="q4" required>
+
+		<p>Question 5: For whom I can die with no regrets and having a smile?(FULL NAME OF THE PERSON)</p> 
+		<input type="text" id="q5" required>
+
+                <button type="button" onclick="checkAnswers()">Submit Answers</button>
+            </form>
+        </div>
+
+        <div id="password-section" style="display: none;">
+	    <p>This one is a bit tricky so here's a hint for you. What do I like to hear the most? thats your answer (all in capital words)</p>
+            <p>Enter the password to open your gift:</p>
+            <input type="password" id="password" required>
+            <button type="button" onclick="checkPassword()">Submit Password</button>
+        </div>
+
+        <div id="gift-section" style="display: none;">
+            <h2>Congratulations!</h2>
+            <p>You've unlocked your gift. Click the link below:(WAHI VIDEO WAPAS DEKHLO NAI NHI BNA PAYA NYA SMJHKE )</p>
+            <a href="https://drive.google.com/file/d/1ih5RH2b829vZ3QMQdFbAPWujsX_blIPN/view?usp=sharing" target="_blank">Open Your Gift</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
