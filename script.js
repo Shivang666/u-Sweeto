@@ -6,7 +6,7 @@ function checkAnswers() {
     const answer5 = document.getElementById("q5").value.toLowerCase();
 
 
-    if (answer1 === "Mohinee Kharka Gupta" && answer2 === "19/03/2024" && answer3 === "Mohinee Kharka Gupta" && answer4 === "L" && answer5 === "Mohinee Kharka Gupta") {
+    if (answer1 === "mohinee kharka gupta" && answer2 === "19/03/2024" && answer3 === "mohinee kharka gupta" && answer4 === "l" && answer5 === "mohinee kharka gupta") {
         document.getElementById("questions-section").style.display = "none";
         document.getElementById("password-section").style.display = "block";
     } else {
