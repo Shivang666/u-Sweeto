@@ -3,10 +3,9 @@ function checkAnswers() {
     const answer2 = document.getElementById("q2").value.toLowerCase();
     const answer3 = document.getElementById("q3").value.toLowerCase();
     const answer4 = document.getElementById("q4").value.toLowerCase();
-    const answer5 = document.getElementById("q5").value.toLowerCase();
 
 
-    if (answer1 === "mohinee kharka gupta" && answer2 === "19/03/2024" && answer3 === "mohinee kharka gupta" && answer4 === "l" && answer5 === "mohinee kharka gupta") {
+    if (answer1 === "mohinee kharka gupta" && answer2 === "lovee" && answer3 === "mohinee kharka gupta" && answer4 === "mohinee kharka gupta" ) {
         document.getElementById("questions-section").style.display = "none";
         document.getElementById("password-section").style.display = "block";
     } else {
